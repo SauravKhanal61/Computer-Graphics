@@ -13,3 +13,4 @@
 | Personal#   | Title                                                           | Date       | Remarks |
 |------  |--------------------------  |------------|---------|
 | 1      | Used inbuilt circle drawing function                                 | 2025/12/23 |Used DDA line drawing algorithm        |
+| 2      | Used midpoint circle drawing function                                 | 2025/12/23 |Used midpoint circle drawing algorithm        |
