@@ -40,6 +40,7 @@ int main(){
         putpixel(xc - y, yc + x, WHITE);
         putpixel(xc + y, yc - x, WHITE);
         putpixel(xc - y, yc - x, WHITE);
+        delay(30);
     }
     getch();
     closegraph();
