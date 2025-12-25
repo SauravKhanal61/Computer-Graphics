@@ -6,10 +6,10 @@ int main()
 {
     //BLE line drawing algorithm
     int gd=DETECT,gm;
-    initgraph(&gd, &gm, (char*)"");
     int x1, y1, x2, y2, dx, dy;
     cout<<"Enter the value of x1, y1, x2, y2: ";
     cin>>x1>>y1>>x2>>y2;
+    initgraph(&gd, &gm, (char*)"");
     dx=x2-x1;
     dy=y2-y1;
     int x=x1;
