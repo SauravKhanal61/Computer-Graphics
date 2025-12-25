@@ -26,6 +26,7 @@ int main(){
         x=x+delx;
         y=y+dely;
         putpixel(round(x),round(y),WHITE);
+        delay(30);
     }
     getch();
     closegraph();
