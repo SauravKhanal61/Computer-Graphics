@@ -4,7 +4,7 @@
 using namespace std;
 int main()
 {
-    //BLE line drawing algorithm m<1
+    //BLE line drawing algorithm m>1
     int gd=DETECT,gm;
     int x1, y1, x2, y2, dx, dy;
     cout<<"Enter the value of x1, y1, x2, y2: ";
@@ -14,18 +14,18 @@ int main()
     dy=y2-y1;
     int x=x1;
     int y=y1;
-    int Pk = 2*dy - dx;
+    int Pk = 2*dx - dy;
     putpixel(x,y,WHITE);
-    for(int i=0; i<=dx; i++){
+    for(int i=0; i<=dy; i++){
 
         if(Pk<0){
             x=x+1;
             y=y;
-            Pk=Pk+2*dy;
+            Pk=Pk+2*dx;
         }else{
             x=x+1;
             y=y+1;
-            Pk=Pk+2*dy-2*dx;
+            Pk=Pk+2*dx-2*dy;
         }
         putpixel(x,y,WHITE);
     }
